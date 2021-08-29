@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Montserrat+Alternates&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --primary-color: #6C3483;
+    --secondary-color: #8E44AD;
+  }
+
+  body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  header h1 {
+    font-family: 'Barrio', cursive;
+    text-align: initial;
+  }
+  
+  nav {
+    text-align: right;
+  }
+
+  .link-active{
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+  
+  nav > a {
+    padding: 0 0.5rem;
+  }
+
+  main {
+    margin: 0 0 7rem;
+  }
+
+  
+  main h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Barrio', cursive;
+    color: var(--secondary-color);
+
+  }
+
+  main h2 {
+    margin: 1rem;
+    color: var(--secondary-color);
+
+
+  }
+  main h3 {
+    margin: 1rem;
+    color: var(--secondary-color);
+
+  }
+  
+  /*  Input */
+  
+  .input-label {
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+  }
+  
+  .input-label p {
+    font-size: larger;
+    margin: 0.5rem;
+  }
+  
+  .input-text {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+  
+  .btn-check {
+    background: var(--secondary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .output {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  /**footer**/
+  footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  footer p {
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+  }
